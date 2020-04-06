@@ -1,0 +1,76 @@
+{
+  "name": "slot-machine",
+  "description": "Casino slot machine demo",
+  "version": "1.0.0",
+  "scripts": {
+    "demo": "cross-env-shell webpack-dev-server --mode development --env.module=slot-machine --config ./webpack.config.demo.js",
+    "build": "cross-env-shell webpack --mode production --env.module=slot-machine --config ./webpack.config.build.js",
+    "test": "mocha --recursive --require espower-typescript/guess \"**/test/**/*.spec.ts\""
+  },
+  "author": {
+    "name": "Stanislav Zhurylo",
+    "url": "https://www.facebook.com/stanislav.zhurylo"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "bootstrap": "^3.3.7",
+    "brace": "^0.11.1",
+    "chai": "^4.1.2",
+    "cross-env": "^5.1.3",
+    "css-loader": "^0.27.3",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "file-loader": "^1.1.4",
+    "immutable": "^4.0.0-rc.12",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "lodash": "^4.17.4",
+    "mocha": "^5.2.0",
+    "moment": "^2.24.0",
+    "postcss-loader": "^3.0.0",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.16.0",
+    "ts-loader": "^4.3.1",
+    "ts-promise": "^2.2.0",
+    "typescript": "3.7.2",
+    "velocity-animate": "1.2.3",
+    "vue": "^2.5.2",
+    "vue-class-component": "^5.0.1",
+    "vue-eslint-parser": "^6.0.4",
+    "vue-loader": "^15.3.0",
+    "vue-property-decorator": "^5.0.1",
+    "vue-template-compiler": "^2.3.3",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.1",
+    "vuex-module-decorators": "^0.16.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8",
+    "webpack-fix-style-only-entries": "^0.0.4",
+    "webpack-merge": "^4.2.1",
+    "espower-typescript": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/lodash": "^4.14.116",
+    "@types/mocha": "^5.2.5",
+    "@types/velocity-animate": "^2.0.1",
+    "@typescript-eslint/eslint-plugin": "^1.2.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^5.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.2"
+  },
+  "engines": {
+    "node": ">= 8.11.3",
+    "npm": ">= 5.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

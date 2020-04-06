@@ -1,0 +1,27 @@
+@import "variables.less";
+@import "mixins.less";
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: @baseFont;
+  font-size: @label-font-size-medium;
+  color: @colorDefaultFont;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 320px;
+}
+
