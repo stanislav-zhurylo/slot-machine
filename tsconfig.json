@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "allowJs": false,
+    "declaration": false,
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "types": [
+      "node",
+      "mocha",
+      "chai"
+    ],
+    "typeRoots": ["./type/*.d.ts"]
+  },
+  "include": [
+    "./demo/**/*",
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
