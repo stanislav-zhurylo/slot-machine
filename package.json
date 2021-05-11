@@ -27,7 +27,7 @@
     "immutable": "^4.0.0-rc.12",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "mocha": "^5.2.0",
     "moment": "^2.24.0",
     "postcss-loader": "^3.0.0",
