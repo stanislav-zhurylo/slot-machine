@@ -14,7 +14,7 @@
   "dependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.24.0",
-    "babel-loader": "^6.4.1",
+    "babel-loader": "^9.1.0",
     "bootstrap": "^3.3.7",
     "brace": "^0.11.1",
     "chai": "^4.1.2",
@@ -47,7 +47,7 @@
     "vuex-class": "^0.3.1",
     "vuex-module-decorators": "^0.16.1",
     "webpack": "^4.29.3",
-    "webpack-cli": "^3.1.0",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.1.8",
     "webpack-fix-style-only-entries": "^0.0.4",
     "webpack-merge": "^4.2.1",
@@ -61,7 +61,7 @@
     "@typescript-eslint/eslint-plugin": "^1.2.0",
     "clean-webpack-plugin": "^0.1.19",
     "copy-webpack-plugin": "^5.1.1",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^0.4.2"
   },
   "engines": {
